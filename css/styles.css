@@ -838,11 +838,7 @@ img {
 }
 
 .form-label {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   margin-bottom: 4px;
-
   font-size: 12px;
   line-height: 1.17;
   color: var(--primary-text-color);
