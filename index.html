@@ -443,6 +443,51 @@
             <use href="./images/sprite.svg#icon-Vector-1"></use>
             </svg>
         </button>
+      <form class="form">
+          <strong class="form-text">Оставьте свои данные, мы вам перезвоним</strong>
+          <div class="form-field">
+            <label for="name" class="form-label">Имя</label>
+            <input type="text" class="form-input" name="name" id="name" />
+            <svg class="form-icon" width="12" height="12">
+              <use href="./images/sprite.svg#icone-name" class="svg-item"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label for="tel" class="form-label">Телефон</label>
+            <input type="tel" class="form-input" name="tel" id="tel" />
+            <svg class="form-icon" width="13" height="13">
+              <use href="./images/sprite.svg#icone-tel" class="svg-item"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label for="email" class="form-label">Почта</label>
+            <input type="email" class="form-input" name="email" id="email" />
+            <svg class="form-icon" width="15" height="12">
+              <use href="./images/sprite.svg#icone-convert" class="svg-item"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label for="comment" class="form-label">Комментарий</label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="10"
+              class="form-textarea"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <label for="checkbox" class="form-checkbox-label">
+            <input type="checkbox" name="checkbox" id="checkbox" class="form-checkbox is-hidden" />
+            <span class="checkbox">
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icone-check" class=""></use>
+              </svg>
+            </span>
+            Соглашаюсь с рассылкой и принимаю <a href="" class="form-link">Условия договора</a>
+          </label>
+
+          <button type="submit" class="hero-button form-btn">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
