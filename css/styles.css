@@ -312,7 +312,7 @@ img {
 
 .modal-svg:hover,
 .modal-svg:focus {
-  background-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .hero {
