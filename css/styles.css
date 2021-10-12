@@ -291,7 +291,7 @@ img {
 
 .close-btn:hover,
 .close-btn:focus {
-  background-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .close-btn {
