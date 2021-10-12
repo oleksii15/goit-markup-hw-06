@@ -289,11 +289,6 @@ img {
   border-radius: 4px;
 }
 
-.close-btn:hover,
-.close-btn:focus {
-  color: var(--accent-color);
-}
-
 .close-btn {
   position: absolute;
   top: 8px;
@@ -313,6 +308,11 @@ img {
 
 .modal-svg {
   color: currentColor;
+}
+
+.modal-svg:hover,
+.modal-svg:focus {
+  background-color: var(--accent-color);
 }
 
 .hero {
