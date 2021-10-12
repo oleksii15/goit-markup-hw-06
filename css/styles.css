@@ -999,7 +999,6 @@ img {
   fill: var(--accent-color);
   background-color: var(--accent-color);
   background-image: url(../images/accept.svg);
-  background-size: contain;
   background-position: 50% 50%;
 }
 
