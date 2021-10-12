@@ -1000,8 +1000,7 @@ img {
   background-color: var(--accent-color);
   background-image: url(../images/accept.svg);
   background-size: contain;
-
-  justify-content: center;
+  background-position: 50% 50%;
 }
 
 .checkbox {
